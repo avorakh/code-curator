@@ -1,0 +1,6 @@
+project.description = "hello-world"
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation libs.bundles.groovy.test
+}

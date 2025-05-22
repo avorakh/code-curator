@@ -1,0 +1,3 @@
+rootProject.name = 'code-curator'
+
+include 'hello-world'
