@@ -30,9 +30,10 @@ class HelloWorldSpecification extends Specification {
 
     def "should successfully print output"() {
         given:
+        def sut = new HelloWorld()
         def expectedOutput = 'Hello, World!'
         when:
-        HelloWorld.main()
+        sut.main()
         then:
         noExceptionThrown()
         outputStreamCaptor.toString().trim() == expectedOutput
