@@ -26,7 +26,7 @@ public class Main {
         MetricCollector collector3 = new FixedSizeWindowMetricCollector(size);
         collector3.add(1);
         double result3 = collector3.add(4);
-        System.out.println("Case 3:  " + result3); // Expect - 2
+        System.out.println("Case 3:  " + result3); // Expect - 2.5
     }
 }
 
