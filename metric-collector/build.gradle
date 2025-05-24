@@ -1,0 +1,6 @@
+project.description = "metric-collector"
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation libs.bundles.groovy.test
+}

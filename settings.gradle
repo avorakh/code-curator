@@ -1,3 +1,4 @@
 rootProject.name = 'code-curator'
 
 include 'hello-world'
+include 'metric-collector'
